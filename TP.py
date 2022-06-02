@@ -34,10 +34,10 @@ for i in values:
   validacion.addSample((i[1], i[2], i[3], i[4], i[6], i[7]), (i[8],))
 
 # Entrenamos la red con el dataset entrenamiento
-trainer = BackpropTrainer(network, dataset=entrenamiento)
+trainer = BackpropTrainer(network, dataset=entrenamiento, learningrate=0.1, lrdecay=1)
 
 # Iteramos 10 veces para entrenar la red
-for epoch in range(10):
+for epoch in range(5):
   trainer.train()
 
 trainer.testOnData(dataset=validacion, verbose=True)
