@@ -37,7 +37,7 @@ for i in values:
 trainer = BackpropTrainer(network, dataset=entrenamiento, learningrate=0.1, lrdecay=1)
 
 # Iteramos 10 veces para entrenar la red
-for epoch in range(5):
+for epoch in range(10):
   trainer.train()
 
 trainer.testOnData(dataset=validacion, verbose=True)
