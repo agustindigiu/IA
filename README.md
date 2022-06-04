@@ -2,13 +2,16 @@
 # Proyecto de la cátedra Inteligencia Artificial - Grupo 1 - UTN FRLP
 Para ejecutar el código es necesario descargarse el programa 'Python' disponible en https://www.python.org/downloads/ 
 
-Una vez descargado e instalado, ejecutar los comandos para instalar las siguientes librerias:
+También es necesario descargar el código de PyBrain, disponible en https://github.com/pybrain/pybrain
 
-pip install pybrain
+Una vez descargado e instalado Python, ejecutar el siguiente comando para instalar las dependencias de PyBrain:
 
-pip install numpy
+*pip install numpy pandas pybind11 Cython scipy openpyxl*
 
-pip install pandas
+Finalmente, instalar PyBrain situandose en la carpeta del mismo (cd pybrain-master/pybrain-master o con la ruta que corresponda según como se haya descargado), y ejecutando: 
 
-pip install structure
+*python setup.py install*
 
+En este momento, ya estamos en condiciones de ejecutar el código, para lo cual, una vez situados en la carpeta del repositorio, ejecutamos: 
+
+*python TP.py*
