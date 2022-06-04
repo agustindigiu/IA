@@ -15,6 +15,7 @@ columns = bd.columns
 columns = columns.tolist()
 values = bd.values
 
+# Definimos la red neuronal artificial con 6 nodos de entrada, 4 nodos ocultos y 1 nodo de salida
 network = buildNetwork(6, 4, 1, bias=True, hiddenclass=TanhLayer)
 
 # Creamos un dataset que matchee con los tamaños de entrada y salida de la red
