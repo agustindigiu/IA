@@ -1,6 +1,6 @@
 # IA
 # Proyecto de la cátedra Inteligencia Artificial - Grupo 1 - UTN FRLP
-Para ejecutar el código es necesario descargarse el programa 'Python' disponible en https://www.python.org/downloads/ 
+Para ejecutar el código es necesario descargarse el programa 'Python' versión 3 en adelante disponible en https://www.python.org/downloads/ 
 
 También es necesario descargar el código de PyBrain, disponible en https://github.com/pybrain/pybrain
 
